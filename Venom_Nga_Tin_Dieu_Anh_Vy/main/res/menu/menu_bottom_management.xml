@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/action_book"
+        android:icon="@drawable/book">
+    </item>
+    <item
+        android:id="@+id/active_theloai"
+        android:title="@string/action_category"
+        android:icon="@drawable/category">
+    </item>
+    <item
+        android:id="@+id/action_phieumuon"
+        android:title="Phiếu mượn"
+        android:icon="@drawable/staff">
+    </item>
+    <item
+        android:id="@+id/action_nhanvien"
+        android:title="Nhân viên"
+        android:icon="@drawable/mypage">
+    </item>
+    <item
+        android:id="@+id/action_thanhvien"
+        android:title="Thành viên"
+        android:icon="@drawable/mypage">
+    </item>
+</menu>

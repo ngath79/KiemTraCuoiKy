@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbackground"
+    tools:context=".staff.Add_Staff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM NHÂN VIÊN"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="512dp"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="50dp">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="513dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="145dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img_thuvien" />
+
+                <EditText
+                    android:id="@+id/edt_idNV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_matv"
+                    android:drawablePadding="20dp"
+                    android:ems="25"
+                    android:hint="Mã nhân viên"
+                    android:importantForAutofill="no"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtNameNV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_people_24"
+                    android:drawablePadding="20dp"
+                    android:ems="25"
+                    android:hint="Họ và tên"
+                    android:importantForAutofill="no"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edt_Chucvu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_image_24"
+                    android:drawablePadding="20dp"
+                    android:ems="25"
+                    android:hint="Chức vụ"
+                    android:importantForAutofill="no"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtNamsinhNV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_cake_24"
+                    android:drawablePadding="20dp"
+                    android:ems="25"
+                    android:hint="Năm sinh"
+                    android:importantForAutofill="no"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edt_urlAnh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_image"
+                    android:drawablePadding="20dp"
+                    android:ems="25"
+                    android:hint="url ảnh"
+                    android:importantForAutofill="no"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnAddNV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:background="@drawable/btn_phieumuon"
+                        android:text="Thêm"
+                        app:cornerRadius="10dp"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/btnHuy_AddNV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+
+                        android:background="@drawable/btn_phieumuon"
+                        android:text="HỦY"
+                        app:cornerRadius="10dp"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
